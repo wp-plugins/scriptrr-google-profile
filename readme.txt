@@ -11,7 +11,7 @@ Donate link: http://plus.scriptrr.com/
 Version: 0.7
 Tags: scriptrr google plus profile widget
 Requires at least: 2.0.2
-Tested up to: 2.1
+Tested up to: 3.2.1
 Stable tag: 4.3
 Author URI: http://blog.svnlabs.com
 Other: Plus.scriptrr.com is a tool to generate plugin/widget for Google + Profile. Plus.scriptrr.com free, it does not require your personal information. 100+ users already using this. Plus.scriptrr.com is not a Google product.
@@ -26,10 +26,10 @@ Plus.scriptrr.com is a tool to generate plugin/widget for Google + Profile. Plus
 
 == Installation ==
 
-1. Download scriptrr_google_plus_profile_widget.zip
+1. Download Scriptrr Google + Profile widget
 2. Extract and upload scriptrr_google_plus_profile_widget.php to the plugins/ directory
-3. Enable scriptrr_google_plus_profile_widget Widget in the Plugin admin panel
-4. Place scriptrr_google_plus_profile_widget in the sidebar, and edit it to enter the Google + Profile plugin.
+3. Enable Scriptrr Google + Profile Widget in the Plugin admin panel
+4. Place Scriptrr Google + Profile in the sidebar, and edit it to enter the Google + Profile plugin.
 
 
 == Screenshots ==
@@ -41,6 +41,7 @@ Plus.scriptrr.com is a tool to generate plugin/widget for Google + Profile. Plus
 
 == Arbitrary section ==
 
+Blog: http://blog.svnlabs.com/2011/07/google-plus-profile-widget/
 Download Plugin: http://plus.scriptrr.com/
 
 Follow me:
