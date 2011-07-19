@@ -33,6 +33,8 @@ function widget_scriptrr_google_plus_profile_widget_init() {
 		$userid = $options['userid'];
 		$width = $options['width'];
 		$host = $options['host'];
+		$links = $options['links'];
+		$color = $options['color'];
 		$title = ($options['title'] != "") ? $before_title.$options['title'].$after_title : "";  
 		$widget = html_entity_decode($options['widget']);
 		
@@ -63,6 +65,8 @@ function widget_scriptrr_google_plus_profile_widget_init() {
 				'userid' => '100825987461531739433',
 				'width' => '200',
 				'host' => 'plus.scriptrr.com',
+				'color' => 'c2c2c2',
+				'links' => '0',
 				
 			);
 			
@@ -75,10 +79,13 @@ function widget_scriptrr_google_plus_profile_widget_init() {
 			$options['width'] = strip_tags(stripslashes($_POST['scriptrr_google_plus_profile_widget-width']));
 			$options['host'] = strip_tags(stripslashes($_POST['scriptrr_google_plus_profile_widget-host']));
 			
+			$options['color'] = strip_tags(stripslashes($_POST['scriptrr_google_plus_profile_widget-color']));
+			$options['links'] = strip_tags(stripslashes($_POST['scriptrr_google_plus_profile_widget-links']));
+			
 						
 
 			$options['title'] = 'Follow me on Google+';
-			$options['widget'] = '<iframe src="http://plus.scriptrr.com/scriptrr.php?id='.$options['userid'].'&host='.$options['host'].'&width='.$options['width'].'" frameborder="0" scrolling="no" height="350" width="'.$options['width'].'"></iframe>';			
+			$options['widget'] = '<iframe src="http://plus.scriptrr.com/scriptrr.php?id='.$options['userid'].'&host='.$options['host'].'&width='.$options['width'].'&color='.$options['color'].'&links='.$options['links'].'" frameborder="0" scrolling="no" height="350" width="'.$options['width'].'"></iframe>';			
 			
 			
 			//  echo $result;
@@ -92,6 +99,9 @@ function widget_scriptrr_google_plus_profile_widget_init() {
 		$userid = htmlspecialchars($options['userid'], ENT_QUOTES);
 		$width = htmlspecialchars($options['width'], ENT_QUOTES);
 		$host = htmlspecialchars($options['host'], ENT_QUOTES);
+		
+		$color = htmlspecialchars($options['color'], ENT_QUOTES);
+		$links = htmlspecialchars($options['links'], ENT_QUOTES);
 
 		
 		// Here is our little form segment. Notice that we don't need a
@@ -100,6 +110,13 @@ function widget_scriptrr_google_plus_profile_widget_init() {
 		echo '<p style="text-align:right;"><label for="scriptrr_google_plus_profile_widget-userid">' . __('Google+ ID:', 'widgets') . ' <input style="width: 200px;" id="scriptrr_google_plus_profile_widget-userid" name="scriptrr_google_plus_profile_widget-userid" type="text" value="'.$userid.'" /></label></p>';
 		echo '<p style="text-align:right;"><label for="scriptrr_google_plus_profile_widget-width">' . __('Width:', 'widgets') . ' <input style="width: 200px;" id="scriptrr_google_plus_profile_widget-width" name="scriptrr_google_plus_profile_widget-width" type="text" value="'.$width.'" /></label></p>';
 		echo '<p style="text-align:right;"><label for="scriptrr_google_plus_profile_widget-host">' . __('Domain:', 'widgets') . ' <input style="width: 200px;" id="scriptrr_google_plus_profile_widget-host" name="scriptrr_google_plus_profile_widget-host" type="text" value="'.$host.'" /></label></p>';
+		
+		
+		echo '<p style="text-align:right;"><label for="scriptrr_google_plus_profile_widget-color">' . __('Color:', 'widgets') . ' <input style="width: 200px;" id="scriptrr_google_plus_profile_widget-color" name="scriptrr_google_plus_profile_widget-color" type="text" value="'.$color.'" /></label><br>(color code like c2c2c2)</p>';
+		
+		
+		echo '<p style="text-align:right;"><label for="scriptrr_google_plus_profile_widget-links">' . __('Social Links:', 'widgets') . ' <input style="width: 200px;" id="scriptrr_google_plus_profile_widget-links" name="scriptrr_google_plus_profile_widget-links" type="text" value="'.$links.'" /></label><br>(1=yes/0=no)</p>';
+		
 
 		echo '<input type="hidden" id="scriptrr_google_plus_profile_widget-submit" name="scriptrr_google_plus_profile_widget-submit" value="1" />';
 	}
