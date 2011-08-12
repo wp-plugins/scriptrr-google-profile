@@ -4,7 +4,7 @@ Plugin Name: Scriptrr Google + Profile widget
 Plugin URI: http://plus.scriptrr.com/
 Description: Google Plus Profile Widget allows users to add plugin on their blog or website to invite visitors to new Google + Profile. 
 Author: Sandeep Verma
-Version: 0.7
+Version: 0.7.1
 Author URI: http://blog.svnlabs.com
 Other: Plus.scriptrr.com is a tool to generate plugin/widget for Google + Profile. Plus.scriptrr.com free, it does not require your personal information. 100+ users already using this. Plus.scriptrr.com is not a Google product.
 */
