@@ -31,12 +31,23 @@ Plus.scriptrr.com is a tool to generate plugin/widget for Google + Profile. Plus
 3. Enable Scriptrr Google + Profile Widget in the Plugin admin panel
 4. Place Scriptrr Google + Profile in the sidebar, and edit it to enter the Google + Profile plugin.
 
+WordPress Users can use this widget as sidebar, it require Google+ ID, Width, Height, Domain, Color, Links as input.
+
 
 == Screenshots ==
 
 1. Screenshot of Google + Profile Widget in Front End.
 
 2. Screenshot of admin panel widget area.
+
+
+== Changelog ==
+
+= 0.7.1 =
+* Fixed issue with height of widget.
+* Fixed PHP notices being displayed.
+* Fixed issue with rounded corners of widget.
+* Changed CSS for widgets.
 
 
 == Arbitrary section ==
