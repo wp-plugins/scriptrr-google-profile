@@ -14,7 +14,7 @@ Requires at least: 2.0.2
 Tested up to: 3.2.1
 Stable tag: 4.3
 Author URI: http://blog.svnlabs.com
-Other: Plus.scriptrr.com is a tool to generate plugin/widget for Google + Profile. Plus.scriptrr.com free, it does not require your personal information. 100+ users already using this. Plus.scriptrr.com is not a Google product.
+Other: Plus.scriptrr.com is a tool to generate plugin/widget for Google + Profile. Plus.scriptrr.com free, it does not require your personal information. Plus.scriptrr.com is third party product for widgets. 
 
 == Description ==
 
