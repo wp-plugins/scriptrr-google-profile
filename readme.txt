@@ -8,7 +8,7 @@ Description: Google Plus Profile Widget allows users to add plugin on their blog
 Author: Sandeep Verma
 Contributors: Sandeep Verma
 Donate link: http://plus.scriptrr.com/ 
-Version: 0.7
+Version: 0.7.1
 Tags: scriptrr google plus profile widget
 Requires at least: 2.0.2
 Tested up to: 3.2.1
