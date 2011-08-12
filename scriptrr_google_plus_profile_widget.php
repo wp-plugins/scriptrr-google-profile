@@ -85,7 +85,7 @@ function widget_scriptrr_google_plus_profile_widget_init() {
 						
 
 			$options['title'] = 'Follow me on Google+';
-			$options['widget'] = '<iframe src="http://plus.scriptrr.com/scriptrr.php?id='.$options['userid'].'&host='.$options['host'].'&width='.$options['width'].'&color='.$options['color'].'&links='.$options['links'].'" frameborder="0" scrolling="no" height="350" width="'.$options['width'].'"></iframe>';			
+			$options['widget'] = '<iframe src="http://plus.scriptrr.com/scriptrr.php?id='.$options['userid'].'&host='.$options['host'].'&width='.$options['width'].'&color='.$options['color'].'&links='.$options['links'].'" frameborder="0" scrolling="no" height="300" width="'.$options['width'].'"></iframe>';			
 			
 			
 			//  echo $result;
