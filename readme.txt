@@ -22,7 +22,7 @@ Google Plus Profile Widget allows users to add plugin on their blog or website t
 
 Please send us an email to scriptrr@gmail.com for your questions or suggestions. 
 
-Plus.scriptrr.com is a tool to generate plugin/widget for Google + Profile. Plus.scriptrr.com free, it does not require your personal information. Plus.scriptrr.com is not a Google product.
+Plus.scriptrr.com is a tool to generate plugin/widget for Google + Profile. Plus.scriptrr.com free, it does not require your personal information. Plus.scriptrr.com is third party product for widgets. 
 
 == Installation ==
 
